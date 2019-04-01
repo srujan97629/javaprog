@@ -32,5 +32,4 @@ public class Anagram {
 			System.out.println("Given Strings are not Anagram");
 		}
 	}
-
 }
