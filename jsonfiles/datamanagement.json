@@ -1,0 +1,17 @@
+{ 
+   "Rice":[{ "Name":"Basmathi","Weight":10,"Price":120},
+           { "Name":"Brown Rice","Weight":5,"Price":85},
+           { "Name":"White Rice","Weight":30,"Price":45}],
+
+
+ "Pulses":[{ "Name":"Masoor Dal","Weight":2,"Price":75},
+           { "Name":"Mung Dal","Weight":5,"Price":80},
+           { "Name":"Toor Dal","Weight":20,"Price":78}],
+
+
+ "Wheats":[{ "Name":"Rye","Weight":25,"Price":32},
+           { "Name":"Oats","Weight":5,"Price":35},
+           { "Name":"Barley","Weight":15,"Price":42}]
+
+}
+    
