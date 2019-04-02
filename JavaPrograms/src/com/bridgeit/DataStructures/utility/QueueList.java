@@ -43,22 +43,18 @@ static Node head;
 		if(head==null)
 		{
 			head=new_node;
-			//System.out.printf("%4d",new_node.data);
-			//System.out.println(""+head.data);
+			
 			return null;
 		}
 		else
 		{	
 			new_node.next=null;
 			Node last=head;
-			//System.out.printf("%4 ",new_node.data);
-			//System.out.println(""+new_node.data);
+			
 			while(last.next!=null)
 			{
 				last=last.next;
-			}
-			//System.out.printf("%4d",new_node.data);
-			//System.out.println(""+new_node.data);
+			
 			last.next=new_node;
 
 		}
@@ -71,7 +67,7 @@ static Node head;
 
 		new_node.next=head;
 		head=new_node;
-		//System.out.println("push:"+new_node.data);
+		
 
 		return new_data;
 	}
@@ -215,7 +211,7 @@ static Node head;
 		s=s1.split(" ");
 
 
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter("/home/admin1/eclipse-workspace/Venkatesh/doc2")))
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter("/home/admin1/eclipse-workspace/Desktop/frist")))
 		{
 			for(i=0;i<s.length;i++)
 			{
