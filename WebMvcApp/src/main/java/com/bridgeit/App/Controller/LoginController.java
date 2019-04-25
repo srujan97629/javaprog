@@ -36,7 +36,7 @@ public class LoginController
 			if(null!=user)
 			{
 				refModel=new ModelAndView("welcome");
-				refModel.addObject("fristname",user.getFirstname());
+				refModel.addObject("firstname",user.getFirstname());
 			}
 			else
 			{
