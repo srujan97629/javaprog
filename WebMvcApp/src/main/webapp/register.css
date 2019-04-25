@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body
+{
+	colour:black;
+	background-image:url();
+	background-size: cover;
+}
+
+a:link,a:visited
+{
+	text-decoration:none;
+	color:#ffcccc;
+	
+}
+.register
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width:430px;
+	margin:auto;
+	margin-top: 80px;
+	height:400;
+	margin-left: 400px;
+}
